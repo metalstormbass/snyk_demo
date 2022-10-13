@@ -1,5 +1,5 @@
 #Dockerfile
-FROM python:3.6
+FROM python:3.7.14
 
 #Install NGINX
 RUN apt-get update && apt-get install nginx -y --no-install-recommends && apt-get install curl -y && apt-get install iputils-ping -y && apt-get install nmap -y
